@@ -1,0 +1,157 @@
+<!--Ryan Ta-->
+<!--655682813-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Ta - About</title>
+    <link href="css/main-css.css" rel="stylesheet" type="text/css">
+        <!--font style-->
+    <!--Asap style for logo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap" rel="stylesheet">
+    <!--Special Elite-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <style>
+       
+        .about{
+            height: 100vh;
+            width: 100%;
+            padding: 200px 0px;
+            background-color: #783937FF;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .about img{
+            height: auto;
+            width: 420px;
+            border-radius: 30px;
+        }
+
+
+        .about-text{
+            width: 550px;
+        }
+        .main{
+            width: 1130px;
+            max-width: 95%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .about-text h1{
+            color: rgb(226, 226, 226);
+            font-size: 80px;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+            font-family: 'Asap Condensed', sans-serif;
+            padding-left: 3rem;
+        }
+
+        .about-text h5{
+            color: rgb(226, 226, 226);
+            font-size: 25px;
+            margin-bottom: 25px;
+            letter-spacing: 2px;
+            font-family: 'Asap Condensed', sans-serif;
+        }
+
+        .about-text h3{
+            color: rgb(226, 226, 226);
+            font-size: 20px;
+            margin-bottom: 25px;
+            letter-spacing: 2px;
+            font-family: 'Asap Condensed', sans-serif;
+        }
+
+        span a{
+            text-decoration: none;
+            color:#FC766AFF;
+        }
+
+        .about-text p{
+            color:rgb(226, 226, 226);
+            letter-spacing: 1px;
+            line-height: 28px;
+            font-size: 18px;
+            margin-bottom: 45px;
+            font-family: 'Special Elite', cursive;       
+        }
+
+        button{
+            background-color: #f9004d;
+            color:rgb(226, 226, 226);
+            text-decoration: none;
+            border: 2px solid transparent;
+            font-weight: bold;
+            padding:13px 30px;
+            border-radius: 30px;
+            transition: .4s;
+            font-family: 'Asap Condensed', sans-serif;
+        }
+
+        button:hover{
+            background: transparent;
+            border: 2px solid #f9004d ;
+            cursor: pointer;
+        }
+        @media screen and (max-width:768px) {
+            h2{
+                height: 92vh;
+                Top: 8vh;
+            }
+            .reponsive-img{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!--navigation bar-->
+    <nav>   
+        <div class="logo">
+            <h4>Ryan Ta</h4>
+        </div>
+               <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="gear.html">Gear</a></li>
+                    <li><a href="technique.html">Technique</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            <div class="phone-view">
+                <div class="line1"></div>
+                <div class="line2"></div> 
+                <div class="line3"></div>
+            </div>
+    </nav>
+    <script src="javascript/mini.js"></script>
+    <!--content-->
+    <section class="about"> 
+        <div class="main">
+            <img src="img/profile.jpg" alt="profile" class="reponsive-img" width="420px">
+                <div class="about-text">
+                    <h5>About me</h5>
+                    <h1>Hi, I'm Ryan</h1>
+                    <h3>Rock Climber <span><a href="https://dinhquy2425.wixsite.com/ryanta" target="_blank"> & Interior Designer</a></span></h3>
+                    <p> My name is Ryan Ta. I am 3rd year standing Interior Design student at Vancouver Island University. Born in Vietnam and 
+                        raised in Canada, I have had the opportunity to study and work in different cultures and environments. I fell in love with 
+                        rock climbing when a cousin introduced me to a nearby climbing gym. I climbed non-stop initially because I thought practicing 
+                        every day would make me more robust and I would climb more challenging climbs. It was my mistake when I was inexperienced and
+                        without a leader. Therefore, I created this website as an online library of valuable articles to help beginners quickly learn 
+                        and practice scientifically and avoid injury.
+                    </p>
+                    <button onclick="location.href='gear.html'" type="button">LET'S CLIMB</button>
+                </div>
+        </div>
+    </section>
+</body>
+</html>
